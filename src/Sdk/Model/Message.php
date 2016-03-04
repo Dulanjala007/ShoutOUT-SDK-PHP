@@ -7,7 +7,7 @@
  * Time: 12:46
  */
 namespace ShoutOUT\SDK\Model;
-require_once ('Content.php');
+use ShoutOUT\SDK\Model\Contact;
 
 class Message implements \JsonSerializable
 {
