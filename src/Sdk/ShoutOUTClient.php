@@ -9,9 +9,7 @@
 namespace ShoutOUT\SDK;
 
 use ShoutOUT\SDK\Model\Response;
-
-require_once './SignRequest.php';
-require_once './Model/Response.php';
+use ShoutOUT\SDK\SignRequest;
 
 class ShoutOUTClient
 {
