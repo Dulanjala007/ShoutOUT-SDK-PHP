@@ -37,15 +37,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Aws\\": "src/"
-    },
-    "files": ["src/functions.php"]
+      "ShoutOUT\\": "src/"
+    }
   },
   "autoload-dev": {
     "psr-4": {
       "Aws\\Test\\": "tests/"
-    },
-    "classmap": ["build/"]
+    }
   },
   "extra": {
     "branch-alias": {
@@ -54,7 +52,7 @@
   },
   "scripts": {
     "post-autoload-dump": [
-      "make compile-json"
+
     ]
   }
 }
